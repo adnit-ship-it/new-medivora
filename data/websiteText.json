@@ -451,7 +451,8 @@
       "media": {
         "image": {
           "src": "/assets/images/products-alt.png",
-          "alt": "Medivora product assortment"
+          "alt": "Medivora product assortment",
+          "color": "#811818"
         }
       }
     },
