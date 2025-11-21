@@ -25,6 +25,11 @@
           "text": "Exceptional care",
           "iconType": "checkmark",
           "iconColor": "#A75809"
+        },
+        {
+          "text": "sadsadasd",
+          "iconType": "checkmark",
+          "iconColor": "#000000"
         }
       ],
       "ctaButton": "Take the Assessment",
