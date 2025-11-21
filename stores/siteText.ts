@@ -232,6 +232,7 @@ interface LayoutHeights {
 }
 
 interface CommonContent {
+  pageTitle: string
   buttons: {
     next: string
     submitToProvider: string
@@ -331,6 +332,8 @@ export const useSiteTextStore = defineStore('siteText', () => {
   const getContactText = () => siteText.value?.contact || null
   const getCommonText = () => siteText.value?.common || null
   const getIconRegistry = () => siteText.value?.iconRegistry || {}
+  const getPageTitle = () => siteText.value?.common?.pageTitle || "Medivora"
+
 
   // Method to set site text directly (for SSR)
   const setSiteText = (data: SiteTextData) => {
@@ -349,6 +352,7 @@ export const useSiteTextStore = defineStore('siteText', () => {
     getProductsText,
     getContactText,
     getCommonText,
-    getIconRegistry
+    getIconRegistry,
+    getPageTitle
   }
 })

@@ -1,4 +1,5 @@
 {
+  
   "iconRegistry": {
     "checkmark": "/assets/images/checkmark.svg",
     "checkmark-star": "/assets/images/checkmark-star.svg",
@@ -525,6 +526,7 @@
     }
   },
   "common": {
+    "pageTitle": "Medivora",
     "buttons": {
       "next": "Next",
       "submitToProvider": "Submit to Provider",
