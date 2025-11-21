@@ -59,7 +59,7 @@
       "marquee": {
         "speed": 50
       },
-      "logos": [    
+      "logos": [
         {
           "src": "/assets/images/clients/bloomberg.png",
           "alt": "Bloomberg logo"
@@ -68,13 +68,10 @@
           "src": "/assets/images/clients/forbes.png",
           "alt": "Forbes logo"
         },
-     
-      
         {
           "src": "/assets/images/clients/fortune.png",
           "alt": "Fortune logo"
         },
-      
         {
           "src": "/assets/images/clients/new-york-times.png",
           "alt": "The New York Times logo"
@@ -131,7 +128,7 @@
         "avatar": {
           "src": "/assets/images/user.svg",
           "alt": "User avatar icon",
-          "color": "#A75809"
+          "color": "#433628"
         },
         "star": {
           "src": "/assets/images/star.svg",
